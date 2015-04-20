@@ -10,6 +10,7 @@ html, body, nav, section, div, img, ul, p {
 	max-width: 66%;
 	list-style-type: none; 
 	text-align: center;
+	text-decoration: none;
 }
 
 /* nav */
@@ -219,12 +220,16 @@ html, body, nav, section, div, img, ul, p {
 	text-align: center;
 	margin-top: .75em;
 	padding-top: .50em;
+	text-decoration: none;
+
+
 }
 
 #phone {
 	padding-top: .25em;
 	color: #e8798e;
 	padding-bottom: .50em;
+	text-decoration: none;
 }
 
 
@@ -252,6 +257,7 @@ html, body, nav, section, div, img, ul, p {
 	font-size: 1.25em;
 	padding-top: 1em;
 	padding-bottom: .5em;
+	text-decoration: none;
 }
 
 #book_one {
