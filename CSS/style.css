@@ -13,14 +13,23 @@ html, body, nav, section, div, img, ul, p {
 }
 
 /* nav */
-.logo {
+.logo>p {
 	text-align: center;
 	list-style-type: none;
-	background-color: #e4ddd9;
+	
 	color: #e8798e;
 	font-size: 3em;
-	padding-top: .75em;
+	padding-top: .87em;
 	padding-bottom: .75em;
+}
+
+#header{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#header-color{
+		background-color: #e4ddd9;
 }
 
 .hamburger_menu {
