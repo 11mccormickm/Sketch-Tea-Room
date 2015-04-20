@@ -1,0 +1,291 @@
+html, body, nav, section, div, img, ul, p {
+	margin: auto 0;
+	padding: 0;
+	font-family: "Helvetica", sans-serif;
+	text-decoration: none; 
+
+}
+
+.content {
+	max-width: 66%;
+	list-style-type: none; 
+	text-align: center;
+}
+
+/* nav */
+.logo {
+	text-align: center;
+	list-style-type: none;
+	background-color: #e4ddd9;
+	color: #e8798e;
+	font-size: 3em;
+	padding-top: .75em;
+	padding-bottom: .75em;
+}
+
+.hamburger_menu {
+	float: left;
+	text-decoration: none;
+	width: 3em;
+	height: 3em;
+	padding-left: 2em;
+	padding-top: 2.50em;
+
+}
+
+.nav_list {
+	text-decoration: none;
+	display: none;
+	color: #e8798e;
+	padding-top: 2.5em;
+	margin-right: 0;
+	position: relative;
+}
+
+.nav_list li{
+	float: none;
+	margin-bottom: 10px;
+	display: block;
+	text-decoration: none;
+}
+.nav_list>li>a {
+	color: #e8798e;
+	text-decoration: none;
+	padding-top: 1em;
+}
+
+
+
+/* home page */
+.fluid_picture {
+	width: 100%;
+}
+
+#gallery_home {
+	max-width: 100%;
+}
+
+.light_pink_text {
+	color: #dfcacf;
+}
+
+.dark_pink_text {
+	color: #b35455;
+}
+
+
+.big_text {
+	font-size: 1.25em;
+	padding-top: .25em;
+	padding-bottom: .25em;
+
+}
+
+.small_text {
+	font-size: .75em;
+	padding-bottom: .25em;
+	font-style: italic;
+}
+
+#section_two {
+	background-color: #b35455;
+	text-align: center;
+	padding-top: .5em;
+	padding-bottom: .5em;
+
+}
+
+
+#section_three {
+	background-color: #dfcacf;
+	text-align: center;
+	padding-top: .5em;
+	padding-bottom: .5em; 
+}
+
+#section_four {
+	background-color: #b35455;
+	text-align: center;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+#section_five {
+	background-color: #dfcacf;
+	text-align: center;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.more_button {
+	text-decoration: none;
+	color: #FFF;
+	font-size: .75em;
+
+}
+
+
+/* page 1 */
+
+.fluid_image {
+	width: 100%;
+}
+
+.room_info {
+	text-align: center;
+	padding-top: 1.15em;
+	padding-bottom: .5em;
+	font-size: 1.25em;
+}
+
+#parlour_image {
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#gallery_image {
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bar_image {
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#lecture_image {
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#glade_image {
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* page 2 */
+
+.tea_type {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: .5em;
+	font-size: 1.25em;
+	color: #e8798e;
+}
+
+.description {
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+}
+
+/* page 3 */
+
+#map{
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2em;
+}
+
+.contact_info {
+	text-align: center;
+	margin-top: .75em;
+	padding-top: .50em;
+}
+
+#phone {
+	padding-top: .25em;
+	color: #e8798e;
+	padding-bottom: .50em;
+}
+
+
+
+/* page 4 */
+
+.page_header {
+	text-align: center;
+	background-color: #e4ddd9;
+	color: #FFF;
+	font-size: 2.5em; 
+	padding-top: .75em;
+	padding-bottom: .75em;
+
+}
+
+.page_header>a {
+	text-decoration: none;
+	color: #FFF;
+
+}
+
+#books {
+	text-align: center;
+	font-size: 1.25em;
+	padding-top: 1em;
+	padding-bottom: .5em;
+}
+
+#book_one {
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#book_two {
+	max-width: 100%;
+	padding-top: 1em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ceramics {
+	text-align: center;
+	padding-top: 1em;
+}
+
+#ceramics {
+	font-size: 1.25em;
+	padding-bottom: .5em;
+}
+
+#first {
+	padding-bottom: .25em;
+}
+
+#second {
+	padding-bottom: .25em;
+}
+
+#third {
+	padding-bottom: .75em;
+}
+
+#footer_info {
+	color: #FFF;
+	background-color: #554d4d;
+	text-align: center;
+	height: 2em;
+	padding-top: 1.5em;
+	font-size: .75em;
+
+}

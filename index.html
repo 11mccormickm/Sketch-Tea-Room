@@ -1,0 +1,120 @@
+<html>
+
+<head>
+	<title>Sketch Tea Room</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<nav>
+		<div id="header">
+			<img class="hamburger_menu"src="images/hamburger.jpg">
+			<div>
+				<ul class="logo">
+					<li>sketch</li>
+				</ul>
+				<ul class="nav_list">
+				<li><a class="restaurants" id="restaurants"href="#restaurants">Restaurants</a></li>
+				<li><a class="tea" id="tea"href="#tea">Tea 101</a></li>
+				<li><a class="contact" id="contact" href="#contact">Contact</a></li>
+				<li><a class="shop" id="shop" href="#shop">Shop</a></li>
+				</ul>
+			</div>		
+		</div>
+	</nav>
+
+	<div class="main_section">
+		<div class="fluid_picture">
+			<img id="gallery_home" src="images/gallery_home.jpg" alt="gallery_home">
+		</div>
+	</div>
+
+	<section id="section_two">
+		<div class="light_pink_text">
+			<div class="big_text" class="content">
+				<p>sketch the restaurant</p>
+			</div>
+			<div class="small_text" class="restaurants" class="content">
+				<p>Join us in one of our five themed rooms for afternoon tea.</p>
+			</div>	
+		</div>
+		<a href="one.html" class="more_button">MORE</a>	
+	</section>
+
+	<section id="section_three">
+		<div class="dark_pink_text">
+			<div class="big_text" class="tea" class="content">
+				<p>tea 101</p>	
+			</div>
+			<div class="small_text" class="content">
+				<p>Learn the difference so you can order the perfect cup.</p>
+			</div>
+		</div>
+		<a href="two.html" class="more_button">MORE</a>		
+	</section>
+
+	<section id="section_four">
+		<div class="light_pink_text">
+			<div class="big_text" class="contact" class="content">
+				<p>did you ring?</p>		
+			</div>
+			<div class="small_text" class="content">
+				<p>Our map provides you with the closest tube stations.</p>	
+			</div>
+		</div>
+		<a href="three.html" class="more_button">MORE</a>
+	</section>
+
+	<section id="section_five">
+		<div class="dark_pink_text">
+			<div class="big_text" class="shop" class="content">
+				<p>pretty things</p>
+			</div>
+			<div class="small_text" class="content">
+				<p>Browse products from local artists.</p>
+			</div>
+		</div>
+		<a href="four.html" class="more_button">MORE</a>
+	</section>
+	
+	<footer>
+		<div id="footer_info">
+			<p>copyright 2015</p>
+		</div>	
+	</footer>
+
+
+	<script type="text/javascript">
+		$(function() {
+			$nav = $('.nav_list');
+
+			$('.hamburger_menu').click(function(){
+				$nav.slideToggle();
+			});
+		});
+	</script>
+
+	<script type="text/javascript">
+		$(function(){
+			$('a.restaurants').click(function(){
+				$('html, body').animate({scrollTop:$('#restaurants').offset().top}, 1000);
+			});
+
+			$('a.tea').click(function(){
+				$('html, body').animate({scrollTop:$('#tea').offset().top}, 1000);
+			});
+
+			$('a.contact').click(function(){
+				$('html, body').animate({scrollTop:$('#contact').offset().top}, 1000);
+			});
+
+			$('a.shop').click(function(){
+				$('html, body').animate({scrollTop:$('#shop').offset().top}, 1000);
+			});
+		});
+
+	</script>
+
+</body>
+</html>
