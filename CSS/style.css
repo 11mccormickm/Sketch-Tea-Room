@@ -53,6 +53,8 @@ html, body, nav, section, div, img, ul, p {
 }
 
 .nav_list li{
+	font-size: 1.5em;
+	padding-left: 1.5em;
 	float: none;
 	margin-bottom: 10px;
 	display: block;
