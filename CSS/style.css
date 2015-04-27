@@ -191,6 +191,7 @@ html, body, nav, section, div, img, ul, p {
 
 /* page 2 */
 
+
 .tea_type {
 	text-align: center;
 	padding-top: 1em;
@@ -204,6 +205,11 @@ html, body, nav, section, div, img, ul, p {
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-bottom: 1em;
+	list-style-type: none;
+}
+
+.tea-info {
+	list-style-type: none;
 }
 
 /* page 3 */
@@ -221,6 +227,7 @@ html, body, nav, section, div, img, ul, p {
 	margin-top: .75em;
 	padding-top: .50em;
 	text-decoration: none;
+	list-style-type: none;
 
 
 }
@@ -230,6 +237,7 @@ html, body, nav, section, div, img, ul, p {
 	color: #e8798e;
 	padding-bottom: .50em;
 	text-decoration: none;
+	list-style-type: none;
 }
 
 
@@ -258,6 +266,7 @@ html, body, nav, section, div, img, ul, p {
 	padding-top: 1em;
 	padding-bottom: .5em;
 	text-decoration: none;
+	list-style-type: none;
 }
 
 #book_one {
@@ -284,18 +293,22 @@ html, body, nav, section, div, img, ul, p {
 #ceramics {
 	font-size: 1.25em;
 	padding-bottom: .5em;
+	list-style-type: none;
 }
 
 #first {
 	padding-bottom: .25em;
+	list-style-type: none;
 }
 
 #second {
 	padding-bottom: .25em;
+	list-style-type: none;
 }
 
 #third {
 	padding-bottom: .75em;
+	list-style-type: none;
 }
 
 #footer_info {
